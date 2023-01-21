@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  min-height: 100vh;
+  color: #FFFFFF;
+  background-color: #0B0911;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+  opacity: 0.6;
+  margin-bottom: 4rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 999rem;
+  transition: 200ms;
+}
+
+button img {
+  height: 0.875rem;
+  margin-right: 0.5rem;
+}
+
+button:hover,
+.hover {
+  filter: brightness(1.3);
+}
+
+button:focus,
+.focus {
+  outline: 2px solid #FFFFFF;
+}
+
+button:disabled,
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button.loading {
+  cursor: wait;
+}
+
+button.movable {
+  cursor: move;
+}
+
+button.primary {
+  color: #FFFFFF;
+  background-color: #8257E5;
+}
+
+button.secondary {
+  color: #FFFFFF;
+  background-color: #3C3748;
+}
+
+button.tertiary {
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+main, aside {
+  padding: 6rem 3rem;
+}
+
+main table {
+  width: 100%;
+  border: 0.5rem solid #1C162C;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  background-color: #1C162C;
+  overflow: hidden;
+}
+
+main table thead tr {
+  height: 4rem;
+}
+
+main table th,
+main table td {
+  text-align: center;
+  padding: 0.75rem 1.25rem;
+}
+
+main table th,
+main table td:first-child {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+main table td:not(:first-child) {
+  background-color: #0B0911;
+}
+
+aside {
+  background-color: #130F1E;
+}
+
+aside .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
