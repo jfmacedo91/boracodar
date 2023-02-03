@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #807ECE, #8E7ECE);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: fit-content;
+  padding: 2rem;
+  padding-top: 3.5rem;
+  border-radius: 3rem;
+  background: #2D2A37;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+              0px 188px 52px rgba(0, 0, 0, 0.01),
+              0px 120px 48px rgba(0, 0, 0, 0.04),
+              0px 68px 41px rgba(0, 0, 0, 0.15),
+              0px 30px 30px rgba(0, 0, 0, 0.26),
+              0px 8px 17px rgba(0, 0, 0, 0.29),
+              inset 0px 6px 8px rgba(255, 255, 255, 0.1),
+              inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+main .visor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main .visor .calculation {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  text-align: right;
+  color: #6B6B6B;
+}
+
+main .visor .visor-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.25rem;
+  line-height: 1.4;
+  color: #6B6B6B;
+}
+
+main .visor .visor-result .result {
+  color: #EBEBEB;
+}
+
+
+main .buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+main .buttons button {
+  display: grid;
+  place-content: center;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 999px;
+  color: #EBEBEB;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05),rgba(255, 255, 255, 0.05)), #2D2A37;
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01),
+              0px 7px 7px rgba(0, 0, 0, 0.04),
+              0px 4px 6px rgba(0, 0, 0, 0.1),
+              0px 2px 4px rgba(0, 0, 0, 0.26),
+              0px 0px 2px rgba(0, 0, 0, 0.29),
+              inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+}
+
+main .buttons button.text-purple {
+  color: #975DFA;
+}
+
+main .buttons button.background-purple {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05)), #462878;
+}
+
+main .buttons button:last-child {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.05)), #7F45E2;
+}
