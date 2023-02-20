@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Asap', sans-serif;
+}
+
+:root {
+  font-size: 62.50%;
+  --text-color: #121214;
+  --text-in-primary-color: #FFFFFF;
+  --text-in-secondary-color: #FFFFFF;
+  --text-disabled-color: #7C7C8A;
+  --background-color: #FFFFFF;
+  --header-background-color: #F8F8FF;
+  --primary-color: #6246EA;
+  --secodary-color: #E45858;
+  --lines-color: #EAEAEA;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.material-symbols-rounded {
+  color: var(--secodary-color);
+  font-size: 150%;
+}
+
+.primary-header {
+  padding-block: 10rem;
+  background: url('./assets/ilustra-01.svg') no-repeat top left,
+              url('./assets/ilustra-02.svg') no-repeat bottom right
+              var(--header-background-color);
+}
+
+.primary-header .name {
+  display: block;
+  margin-bottom: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--secodary-color);
+}
+
+.primary-header h1 {
+  max-width: 25ch;
+  margin-inline: auto;
+  margin-bottom: 4rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.primary-header h1 strong {
+  color: var(--primary-color);
+}
+
+.primary-header form {
+  display: flex;
+  gap: 2.4rem;
+  max-width: 100rem;
+  margin-inline: auto;
+  padding: 4rem;
+  border-radius: 0.8rem;
+  background-color: var(--background-color);
+}
+
+.primary-header form label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+  background-color: var(--header-background-color);
+}
+
+.primary-header form label:has(:focus) {
+  outline: auto;
+}
+
+.primary-header form input,
+.primary-header form select {
+  width: 100%;
+  font-size: inherit;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+.primary-header form select:invalid {
+  color: var(--text-disabled-color);
+}
+
+.primary-header form select option {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.primary-header form input:focus,
+.primary-header form select:focus {
+  outline: none;
+}
+
+.primary-header form input::placeholder {
+  color: var(--text-disabled-color);
+}
+
+.primary-header form button {
+  padding: 1.2rem 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  border: none;
+  color: var(--text-in-primary-color);
+  background-color: var(--primary-color);
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.primary-header form button:hover {
+  filter: brightness(1.2);
+}
+
+main {
+  max-width: 120rem;
+  margin-inline: auto;
+  padding-block: 10rem;
+}
+
+main header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+main header h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+main header .select-buttons {
+  display: flex;
+  gap: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid var(--lines-color);
+}
+
+main header .select-buttons button {
+  padding: 0.4rem 2.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  border: none;
+  color: var(--text-in-primary-color);
+  background-color: var(--primary-color);
+  transition: 200ms;
+  cursor: pointer;
+}
+
+main header .select-buttons button:hover {
+  filter: brightness(1.2);
+}
+
+main header .select-buttons button:disabled {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+main header .select-buttons button:disabled:hover {
+  color: var(--text-in-primary-color);
+  background-color: var(--primary-color);
+}
+
+.blocks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid var(--lines-color);
+  overflow: hidden;
+}
+
+.block h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-inline: 1.6rem;
+}
+
+.block p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  padding-inline: 1.6rem;
+  opacity: 0.75;
+}
+
+.block .location {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.6rem;
+  padding-inline: 1.6rem;
+  opacity: 0.75;
+  margin-bottom: 1.6rem;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #fafaf9;
+    --text-in-primary-color: #1c1917;
+    --text-in-secondary-color: #1c1917;
+    --text-disabled-color: #78716c;
+    --background-color: #292524;
+    --header-background-color: #1c1917;
+    --primary-color: #34d399;
+    --secodary-color: #6366f1;
+    --lines-color: #1c1917;
+  }
+
+  .primary-header form select:invalid {
+    color: var(--text-disabled-color);
+    opacity: 0.5;
+  }
+}

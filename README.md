@@ -12,6 +12,7 @@
 | `04` | `Chat` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/chat) |[⚓](https://jfmacedo91.github.io/boracodar/chat/) |
 | `05` | `Calculadora` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/calculator) |[⚓](https://jfmacedo91.github.io/boracodar/calculator/) |
 | `06` | `Cartão de embarque` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/boarding-pass) |[⚓](https://jfmacedo91.github.io/boracodar/boarding-pass/) |
+| `06` | `Site de Carnaval` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/carnavel) |[⚓](https://jfmacedo91.github.io/boracodar/carnval/) |
 
 
 ## Autor
