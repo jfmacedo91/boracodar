@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  font-size: 62.50%;
+  --background-color: #292738;
+  --card-background-color: #363447;
+  --text-color: #FFFFFF;
+  --gradient-color-1: linear-gradient(120deg, #CE9FFC 15%, #7367F0 85%);
+  --gradient-color-2: linear-gradient(120deg, #DF9780 15%, #A66DE9 85%);
+  --gradient-color-3: linear-gradient(180deg, #90F7EC 15%, #32CCBC 85%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+  padding: 3.2rem 4.8rem;
+  border-radius: 1.6rem;
+  background-color: var(--card-background-color);
+  box-shadow: 3px 4px 26px #00000040;
+}
+
+.card .title,
+.rating {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.card img {
+  max-width: 5.4rem;
+}
+
+.full {
+  grid-column: 1/-1;
+}
+
+.great {
+  color: #81FBB8;
+}
+
+.graphic {
+  position: relative;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #D9D9D920;
+}
+
+.percentage-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  background-color: var(--card-background-color);
+}
+
+.percentage-value {
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+.labels {
+  display: flex;
+  gap: 2rem;
+}
+
+.labels .dot {
+  width: 1.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.expected, .achieved {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.expected .dot {
+  background-color: #D9D9D920;
+}
+
+.sales .achieved .dot {
+  background: var(--gradient-color-1);
+}
+
+.goal .achieved .dot {
+  background: var(--gradient-color-2);
+}
+
+.left {
+  align-self: start;
+}
+
+.statistics {
+  display: flex;
+  gap: 3.2rem;
+  width: 100%;
+}
+
+.statistics .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.statistics .info h3 {
+  font-size: 2.4rem;
+}
+
+.statistics .graphic {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 10rem;
+  margin-top: 4rem;
+  border-top: 0.2rem solid #D9D9D920;
+}
+
+.statistics .graphic .day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.statistics .graphic .bar {
+  width: 1.5rem;
+  height: 0;
+  border-radius: 1.5rem;
+  background: var(--gradient-color-3);
+  animation: bars 1000ms linear forwards;
+}
+
+@keyframes bars {
+  from {
+    height: 0;
+  } to {
+    height: var(--height);
+  }
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 6rem 3.2rem;
+  width: 100%;
+  max-width: 112rem;
+}
+
+span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+  stroke-width: 30px;
+  stroke-dasharray: 534;
+}
+
+.sales circle {
+  stroke: url(#GradientColor1);
+  stroke-dashoffset: 534;
+  animation: sales 1000ms linear forwards;
+}
+
+@keyframes sales {
+  100% {
+    stroke-dashoffset: 160;
+  }
+}
+
+.goal circle {
+  stroke: url(#GradientColor2);
+  stroke-dashoffset: 534;
+  animation: goal 1000ms linear forwards;
+}
+
+@keyframes goal {
+  100% {
+    stroke-dashoffset: 53;
+  }
+}

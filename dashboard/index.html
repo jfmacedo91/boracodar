@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div class="nps card">
+      <h1 class="title">NPS geral</h1>
+      <div class="rating">
+        <img src="./assets/great.svg">
+        <h2 class="great">Excelente!</h2>
+      </div>
+      <span><strong>NPS Score</strong> 75</span>
+    </div>
+    <div class="sales card">
+      <h1 class="title">Vendas fechadas</h1>
+      <div class="graphic">
+        <div class="percentage">
+          <div class="percentage-info">
+            <h2 class="percentage-value">70%</h2>
+            alcançada
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
+          <defs>
+            <linearGradient id="GradientColor1" gradientTransform="rotate(120)">
+              <stop offset="0%" stop-color="#CE9FFC" />
+              <stop offset="80%" stop-color="#7367F0" />
+            </linearGradient>
+          </defs>
+          <circle cx="100" cy="100" r="85" stroke-linecap="round" />
+        </svg>
+      </div>
+      <div class="labels">
+        <div class="expected">
+          <div class="dot"></div>
+          <span><strong>Esperado</strong> 100</span>
+        </div>
+        <div class="achieved">
+          <div class="dot"></div>
+          <span><strong>Esperado</strong> 70</span>
+        </div>
+      </div>
+    </div>
+    <div class="goal card">
+      <h1 class="title">Meta mansal</h1>
+      <div class="graphic">
+        <div class="percentage">
+          <div class="percentage-info">
+            <h2 class="percentage-value">90%</h2>
+            alcançada
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
+          <defs>
+            <linearGradient id="GradientColor2" gradientTransform="rotate(100)">
+              <stop offset="0%" stop-color="#DF9780" />
+              <stop offset="80%" stop-color="#A66DE9" />
+            </linearGradient>
+          </defs>
+          <circle cx="100" cy="100" r="85" stroke-linecap="round" />
+        </svg>
+      </div>
+      <div class="labels">
+        <div class="expected">
+          <div class="dot"></div>
+          <span><strong>Esperado</strong> R$ 70k</span>
+        </div>
+        <div class="achieved">
+          <div class="dot"></div>
+          <span><strong>Alcançado</strong> R$ 63k</span>
+        </div>
+      </div>
+    </div>
+    <div class="overview card full">
+      <h1 class="title left">Vendas por dia da semana</h1>
+      <div class="statistics">
+        <div class="info">
+          <div class="more">
+            <p><img src="assets/more.svg"> Dia com mais vendas</p>
+            <h3>quarta-feira</h3>
+          </div>
+          <div class="less">
+            <p><img src="assets/less.svg"> Dia com mais vendas</p>
+            <h3>domingo</h3>
+          </div>
+        </div>
+        <div class="graphic">
+          <div class="day">
+            <div class="bar" style="--height: 6rem;"></div>
+            <span>dom</span>
+          </div>
+          <div class="day">
+            <div class="bar" style="--height: 11rem;"></div>
+            <span>seg</span>
+          </div>
+          <div class="day">
+            <div class="bar" style="--height: 9rem;"></div>
+            <span>ter</span>
+          </div>
+          <div class="day">
+            <div class="bar" style="--height: 14rem;"></div>
+            <span>qua</span>
+          </div>
+          <div class="day">
+            <div class="bar" style="--height: 12rem;"></div>
+            <span>qui</span>
+          </div>
+          <div class="day">
+            <div class="bar" style="--height: 10.5rem;"></div>
+            <span>sex</span>
+          </div>
+          <div class="day">
+            <div class="bar" style="--height: 8rem;"></div>
+            <span>sab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
