@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --background-color: #F2F2F4;
+  --text-color: #0F172A;
+  --lines-color: #94A3B8;
+  --primary-color: #7C3AED;
+  --primary-color-10: #7C3AED19;
+  --primary-color-60: #7C3AED80;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0F172A;
+    --text-color: #F2F2F4;
+    --lines-color: #243348
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  background-image: linear-gradient(var(--primary-color-10), var(--primary-color-60));
+}
+
+main {
+  width: 100%;
+  max-width: 80rem;
+  padding: 6.4rem 8rem;
+  border-radius: 1.6rem;
+  background-color: var(--background-color);
+  box-shadow: 0 0.4rem 3.2rem #0F172A60;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+header h1 {
+  grid-column: 1/-1;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid var(--lines-color);
+  border-radius: 0.8rem;
+}
+
+.input-wrapper span:first-child {
+  padding: 1.6rem;
+  padding-right: 0.8rem;
+}
+
+.input-wrapper:has(:focus) {
+  border: 0.1rem solid var(--primary-color);
+  outline: 0.1rem solid var(--primary-color-60);
+}
+
+.input-wrapper input {
+  flex: 1;
+  font-size: 1.6rem;
+  border: none;
+  border-right: 0.1rem solid var(--lines-color);
+  background: none;
+  outline: none;
+}
+
+.input-wrapper input:disabled {
+  color: var(--text-color);
+}
+
+.input-wrapper select {
+  padding: 1.6rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.input-wrapper select:focus {
+  background-color: var(--primary-color-10);
+}

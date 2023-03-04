@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Conversor de moeda</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Conversor de moedas</h1>
+      <div class="input-wrapper">
+        <span id="currencySymbol">$</span>
+        <input type="number" id="baseCurrencyValue">
+        <select id="baseCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+        </select>
+      </div>
+      <span class="material-symbols-outlined">currency_exchange</span>
+      <div class="input-wrapper">
+        <span id="currencySymbol">R$</span>
+        <input type="number" id="convertedCurrencyValue" disabled value="50">
+        <select id="convertedCurrency">
+          <option value="BRL">BRL</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+        </select>
+      </div>
+    </header>
+  </main>
+</body>
+</html>
