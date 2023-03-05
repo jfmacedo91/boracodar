@@ -15,25 +15,26 @@
     <header>
       <h1>Conversor de moedas</h1>
       <div class="input-wrapper">
-        <span id="currencySymbol">$</span>
-        <input type="number" id="baseCurrencyValue">
-        <select id="baseCurrency">
-          <option value="USD">USD</option>
-          <option value="EUR">EUR</option>
-          <option value="GBP">GBP</option>
+        <input type="number" id="currencyValue1" value="0">
+        <select id="currency1">
+          <option value="0">SELECIONE</option>
         </select>
       </div>
       <span class="material-symbols-outlined">currency_exchange</span>
       <div class="input-wrapper">
-        <span id="currencySymbol">R$</span>
-        <input type="number" id="convertedCurrencyValue" disabled value="50">
-        <select id="convertedCurrency">
-          <option value="BRL">BRL</option>
-          <option value="EUR">EUR</option>
-          <option value="GBP">GBP</option>
+        <input type="number" id="currencyValue2" value="0">
+        <select id="currency2">
+          <option value="0">SELECIONE</option>
         </select>
       </div>
     </header>
+    <section>
+      <h1>Taxa de câmbio</h1>
+      <canvas id="myChart"></canvas>
+      <input type="radio" name="time" id="time">
+    </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
