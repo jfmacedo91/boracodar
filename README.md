@@ -14,6 +14,7 @@
 | `06` | `Cartão de embarque` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/boarding-pass) |[⚓](https://jfmacedo91.github.io/boracodar/boarding-pass/) |
 | `07` | `Site de Carnaval` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/carnaval) |[⚓](https://jfmacedo91.github.io/boracodar/carnaval/) |
 | `08` | `Dashboard` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/dashboard) |[⚓](https://jfmacedo91.github.io/boracodar/dashboard/) |
+| `09` | `Corversor de moeda` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/currency-converter) |[⚓](https://jfmacedo91.github.io/boracodar/currency-converter/) |
 
 ## Autor
 
