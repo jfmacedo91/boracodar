@@ -30,7 +30,7 @@ gradient.addColorStop(1, '#7C3AED00');
 let myChart = new Chart(ctx, {});
 
 async function getData() {
-  const response = await fetch(`https://economia.awesomeapi.com.br/json/daily/${currency1.value}-${currency2.value}/30`);
+  const response = await fetch(`https://economia.awesomeapi.com.br/json/daily/${currency1.value}-${currency2.value}/${2}`);
   const data = await response.json();
   const labels = data.map(item => new Date(item.timestamp * 1000).toLocaleDateString('pt-BR'));
   labels.reverse();
@@ -47,7 +47,7 @@ async function getData() {
       borderWidth: 2,
       borderColor: '#7C3AED',
       pointBorderColor: 'transparent',
-      pointBackgroundColor: '#7C3AED',
+      pointBackgroundColor: 'transparent',
       fill: true,
       backgroundColor: gradient
     }]
@@ -57,6 +57,7 @@ async function getData() {
     type: 'line',
     data: chartData,
     options: {
+      hoverBackgroundColor: '#7C3AED',
       responsive: true,
       scales: {
         x: {
