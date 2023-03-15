@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Pagina de clima</title>
+</head>
+<body>
+  <main>
+    <section class="temperature-now">
+      <div class="location">
+        <img src="./assets/pin.svg" />
+        <strong>Andirá, PR</strong>
+      </div>
+      <div class="temperature">
+        <div class="number">
+          18<sup>°C</sup>
+        </div>
+        <div class="minmax">
+          22° <span>16°</span>
+        </div>
+      </div>
+      <div class="statistics">
+        <div class="stats">
+          <img src="./assets/wind.svg" />
+          <div class="info">
+            <p>Vento</p>
+            <h5>17 <span>km/h</span></h5>
+          </div>
+        </div>
+        <div class="stats">
+          <img src="./assets/humidity.svg" />
+          <div class="info">
+            <p>Umidade</p>
+            <h5>31 <span>%</span></h5>
+          </div>
+        </div>
+        <div class="stats">
+          <img src="./assets/rain.svg" />
+          <div class="info">
+            <p>Chuva</p>
+            <h5>10 <span>%</span></h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="air-quality">
+      <h2 class="title">
+        <img src="./assets/leaf.svg">
+        Qualidade do ar
+      </h2>
+      <p class="good">Boa</p>
+      <p class="number">21</p>
+      <div class="info">
+        <div class="number">
+          <p class="good">12.9</p>
+          <small>PM2.5</small>
+        </div>
+        <div class="number">
+          <p class="good">12.9</p>
+          <small>PM10</small>
+        </div>
+        <div class="number">
+          <p class="good">2.1</p>
+          <small>SO<sub>2</sub></small>
+        </div>
+        <div class="number">
+          <p class="good">1.4</p>
+          <small>NO<sub>2</sub></small>
+        </div>
+        <div class="number">
+          <p class="good">21.2</p>
+          <small>O<sub>3</sub></small>
+        </div>
+        <div class="number">
+          <p class="good">0.7</p>
+          <small>CO</small>
+        </div>
+      </div>
+    </section>
+    <section class="sun-time">
+      <h2 class="title">
+        <img src="./assets/time.svg" />
+        Horário do sol
+      </h2>
+      <div class="sun-chart-wrapper">
+        <div class="sun-chart">
+          <div class="chart">
+            <img src="./assets/sun-chart.svg" />
+          </div>
+          <time class="now">17:03</time>
+        </div>
+      </div>
+      <div class="time">
+        <time class="tim-sunrise">06:00</time>
+        <time class="time-sunset">18:58</time>
+      </div>
+    </section>
+    <section class="week-weather">
+      <div class="day">
+        <h4 class="title">Amanhã</h4>
+        <img src="./assets/clouds.svg" />
+        <p class="minmax">21° <span>16°</span></p>
+      </div>
+      <div class="day">
+        <h4 class="title">Sexta-Feira</h4>
+        <img src="./assets/sun.svg" />
+        <p class="minmax">28° <span>20°</span></p>
+      </div>
+      <div class="day">
+        <h4 class="title">Sábado</h4>
+        <img src="./assets/rain-cloud.svg" />
+        <p class="minmax">25° <span>21°</span></p>
+      </div>
+      <div class="day">
+        <h4 class="title">Domingo</h4>
+        <img src="./assets/storm-cloud.svg" />
+        <p class="minmax">20° <span>14°</span></p>
+      </div>
+      <div class="day">
+        <h4 class="title">Segunda-Feira</h4>
+        <img src="./assets/sun-cloud.svg" />
+        <p class="minmax">24° <span>18°</span></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
