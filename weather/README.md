@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Layout do projeto
 
- - [FIGMA](https://www.figma.com/community/file/1195050984449538256)
+ - [FIGMA](https://www.figma.com/community/file/1215291914714743267)
 
 ## Autor
 
