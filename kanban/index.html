@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanban</title>
+</head>
+<body>
+  <aside>
+    <header>
+      <img src="./assets/logo.svg" alt="Logomarcar">
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" class="active">
+            <img src="./assets/board.svg"> Boards
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/team.svg"> Equipe
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/doc.svg" /> Relatórios
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/config.svg" /> Ajustes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <header>
+      <h1>Meu Kanban <img src="./assets/edit.svg" alt="editar título" /></h1>
+      <img src="https://github.com/jfmacedo91.png" />
+    </header>
+    <div class="search">
+      <button>
+        <img src="./assets/filter.svg" /> Filtrar
+      </button>
+      <label for="search" class="input">
+        <img src="./assets/search.svg" />
+        <input type="text" id="search" placeholder="Busque por cards, assuntos ou responsáveis..." />
+      </label>
+    </div>
+    <div class="board">
+      <div class="todo">
+        <h2>A fazer</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>#boraCodar um Kanban 🧑‍💻</h3>
+            <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.</p>
+            <div class="tags">
+              <span>rocketseat</span>
+              <span>desafio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="doing">
+        <h2>Fazendo</h2>
+        <div class="cards">
+
+        </div>
+      </div>
+      <div class="done">
+        <h2>Feito</h2>
+        <div class="cards">
+
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
