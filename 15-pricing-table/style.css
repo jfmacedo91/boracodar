@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1E293B;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background-color: #F8FAFC;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.2rem;
+  width: 100%;
+  padding: 3.2rem;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 28rem;
+  max-width: 38rem;
+  padding: 4.8rem 3.2rem 3.2rem 3.2rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.2rem;
+  background-color: #FFFFFF;
+}
+
+.card header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+  row-gap: 0.8rem;
+}
+
+.call-to-action {
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  color: #7C3AED;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.price {
+  font-size: 1.8rem;
+  text-align: right;
+}
+
+.price strong {
+  color: inherit;
+}
+
+.price span {
+  font-size: 2.4rem;
+  color: inherit;
+}
+
+.card button {
+  margin-block: 3.2rem;
+  padding: 1.6rem 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: 1px solid #1E293B;
+  border-radius: 0.4rem;
+  background-color: transparent;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: #FFFFFF;
+  background-color: #1E293B;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-block: 3.2rem;
+  border-top: 1px solid #E2E8F0;
+}
+
+.card ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  color: #475569;
+}
+
+.card ul li::before {
+  content: url("./assets/check.svg");
+  position: absolute;
+  left: 0;
+}
+
+.card.best-option {
+  position: relative;
+  background-color: #0F172A;
+}
+
+.card.best-option::before {
+  content: "Mais vantajoso";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.8rem 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  background-color: #FBA94C;
+}
+
+.card.best-option .title {
+  color: #F8FAFC;
+}
+
+.card.best-option .price {
+  color: #F8FAFC;
+}
+
+.card.best-option button {
+  border: 1px solid #996DFF;
+  color: #FFFFFF;
+  background-color: #996DFF;
+}
+
+.card.best-option button:hover {
+  border: 1px solid #7C3AED;
+  background-color: #7C3AED;
+}
+
+.card.best-option ul {
+  border-top: 1px solid #334155;
+}
+
+.card.best-option ul li {
+  color: #CBD5E1;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .price span {
+    font-size: 2rem;
+  }
+}

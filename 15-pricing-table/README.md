@@ -1,10 +1,10 @@
-# Desafio 14 - Componente de upload
+# Desafio 15 - Tabela de preços
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/jfmacedo91/boracodar/main?color=%23794fed" />
-  <img src="https://img.shields.io/github/languages/count/jfmacedo91/boracodar?color=%23794fed" />
-  <img src="https://img.shields.io/github/languages/top/jfmacedo91/boracodar?color=%23794fed" />
-  <img src="https://img.shields.io/github/languages/code-size/jfmacedo91/boracodar?color=%23794fed" />
+  <img src="https://img.shields.io/github/last-commit/jfmacedo91/boracodar/main?color=%23996DFF" />
+  <img src="https://img.shields.io/github/languages/count/jfmacedo91/boracodar?color=%23996DFF" />
+  <img src="https://img.shields.io/github/languages/top/jfmacedo91/boracodar?color=%23996DFF" />
+  <img src="https://img.shields.io/github/languages/code-size/jfmacedo91/boracodar?color=%23996DFF" />
 </p>
 
 ## Imagem
@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Layout do projeto
 
- - [FIGMA](https://www.figma.com/community/file/1225440656930547927)
+ - [FIGMA](https://www.figma.com/community/file/1227809985897425342)
 
 ## Autor
 

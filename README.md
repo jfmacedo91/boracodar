@@ -19,7 +19,8 @@
 | `11` | `Tela de login` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/11-loginscreen) |[⚓](https://jfmacedo91.github.io/boracodar/11-loginscreen/) |
 | `12` | `Kanban` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/12-kanban) |[⚓](https://jfmacedo91.github.io/boracodar/12-kanban/) |
 | `13` | `Formulário de Cartão de Crédito` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/13-card-form) |[⚓](https://jfmacedo91.github.io/boracodar/13-card-form/) |
-| `13` | `Componente de upload` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/14-upload) |[⚓](https://jfmacedo91.github.io/boracodar/14-upload/) |
+| `14` | `Componente de upload` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/14-upload) |[⚓](https://jfmacedo91.github.io/boracodar/14-upload/) |
+| `15` | `Tabela de preços` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/15-pricing-table) |[⚓](https://jfmacedo91.github.io/boracodar/15-pricing-table/) |
 
 ## Autor
 
