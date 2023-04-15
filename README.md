@@ -6,19 +6,19 @@
 
 | #    | Name           | Code    | Deploy |
 | :--- | :------------- | :------ | :------|
-| `01` | `Music Player` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/music-player) |[⚓](https://jfmacedo91.github.io/boracodar/music-player/) |
-| `02` | `Product Card` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/product-card) |[⚓](https://jfmacedo91.github.io/boracodar/product-card/) |
-| `03` | `Buttons` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/buttons) |[⚓](https://jfmacedo91.github.io/boracodar/buttons/) |
-| `04` | `Chat` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/chat) |[⚓](https://jfmacedo91.github.io/boracodar/chat/) |
-| `05` | `Calculadora` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/calculator) |[⚓](https://jfmacedo91.github.io/boracodar/calculator/) |
-| `06` | `Cartão de embarque` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/boarding-pass) |[⚓](https://jfmacedo91.github.io/boracodar/boarding-pass/) |
-| `07` | `Site de Carnaval` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/carnaval) |[⚓](https://jfmacedo91.github.io/boracodar/carnaval/) |
-| `08` | `Dashboard` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/dashboard) |[⚓](https://jfmacedo91.github.io/boracodar/dashboard/) |
-| `09` | `Corversor de moeda` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/currency-converter) |[⚓](https://jfmacedo91.github.io/boracodar/currency-converter/) |
-| `10` | `Página de clima` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/weather) |[⚓](https://jfmacedo91.github.io/boracodar/weather/) |
-| `11` | `Tela de login` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/loginscreen) |[⚓](https://jfmacedo91.github.io/boracodar/loginscreen/) |
-| `12` | `Kanban` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/kanban) |[⚓](https://jfmacedo91.github.io/boracodar/kanban/) |
-| `13` | `Formulário de Cartão de Crédito` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/card-form) |[⚓](https://jfmacedo91.github.io/boracodar/card-form/) |
+| `01` | `Music Player` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/01-music-player) |[⚓](https://jfmacedo91.github.io/boracodar/01-music-player/) |
+| `02` | `Product Card` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/02-product-card) |[⚓](https://jfmacedo91.github.io/boracodar/02-product-card/) |
+| `03` | `Buttons` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/03-buttons) |[⚓](https://jfmacedo91.github.io/boracodar/03-buttons/) |
+| `04` | `Chat` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/04-chat) |[⚓](https://jfmacedo91.github.io/boracodar/04-chat/) |
+| `05` | `Calculadora` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/05-calculator) |[⚓](https://jfmacedo91.github.io/boracodar/05-calculator/) |
+| `06` | `Cartão de embarque` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/06-boarding-pass) |[⚓](https://jfmacedo91.github.io/boracodar/06-boarding-pass/) |
+| `07` | `Site de Carnaval` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/07-carnaval) |[⚓](https://jfmacedo91.github.io/boracodar/07-carnaval/) |
+| `08` | `Dashboard` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/08-dashboard) |[⚓](https://jfmacedo91.github.io/boracodar/08-dashboard/) |
+| `09` | `Corversor de moeda` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/09-currency-converter) |[⚓](https://jfmacedo91.github.io/boracodar/09-currency-converter/) |
+| `10` | `Página de clima` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/10-weather) |[⚓](https://jfmacedo91.github.io/boracodar/10-weather/) |
+| `11` | `Tela de login` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/11-loginscreen) |[⚓](https://jfmacedo91.github.io/boracodar/11-loginscreen/) |
+| `12` | `Kanban` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/12-kanban) |[⚓](https://jfmacedo91.github.io/boracodar/12-kanban/) |
+| `13` | `Formulário de Cartão de Crédito` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/13-card-form) |[⚓](https://jfmacedo91.github.io/boracodar/13-card-form/) |
 
 ## Autor
 
