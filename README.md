@@ -21,6 +21,7 @@
 | `13` | `Formulário de Cartão de Crédito` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/13-card-form) |[⚓](https://jfmacedo91.github.io/boracodar/13-card-form/) |
 | `14` | `Componente de upload` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/14-upload) |[⚓](https://jfmacedo91.github.io/boracodar/14-upload/) |
 | `15` | `Tabela de preços` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/15-pricing-table) |[⚓](https://jfmacedo91.github.io/boracodar/15-pricing-table/) |
+| `16` | `Lista de contatos` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/16-contact-list) |[⚓](https://jfmacedo91.github.io/boracodar/16-contact-list/) |
 
 ## Autor
 
