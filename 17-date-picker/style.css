@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #FAFAFA;
+  background-color: #09090B;
+}
+
+.box {
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #18181B;
+  box-shadow: 0 8px 32px #000000;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: 2.5rem 1fr;
+  gap: 1.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #D4D4D8;
+}
+
+header i {
+  padding: 1rem;
+  border-radius: 50%;
+  color: #71717A;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+header i:hover {
+  background-color: #04785740;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  color: #71717A;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+main > div:hover {
+  background-color: #04785740;
+}
+
+main > div.active {
+  position: relative;
+  font-weight: 600;
+  color: #FAFAFA;
+  background-color: #047857;
+}
+
+main > div.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0.25rem;
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background-color: #FAFAFA;
+}
