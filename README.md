@@ -23,6 +23,7 @@
 | `15` | `Tabela de preços` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/15-pricing-table) |[⚓](https://jfmacedo91.github.io/boracodar/15-pricing-table/) |
 | `16` | `Lista de contatos` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/16-contact-list) |[⚓](https://jfmacedo91.github.io/boracodar/16-contact-list/) |
 | `17` | `Seletor de data` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/17-date-picker) |[⚓](https://jfmacedo91.github.io/boracodar/17-date-picker/) |
+| `18` | `Card de personagem` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/18-character-card) |[⚓](https://jfmacedo91.github.io/boracodar/18-character-card/) |
 
 ## Autor
 

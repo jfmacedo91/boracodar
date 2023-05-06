@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #ECE4EF;
+  background: linear-gradient(100deg, #030422, #090114);
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  aspect-ratio: 0.7;
+  width: 28rem;
+  height: 80vh;
+  max-height: 30rem;
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  background: right bottom no-repeat var(--image), center / cover no-repeat url('./assets/bg-card.png') #121214;
+  box-shadow: 0px 294px 118px rgba(0, 0, 0, 0.03),
+              0px 165px 99px rgba(0, 0, 0, 0.1),
+              0px 73px 73px rgba(0, 0, 0, 0.17),
+              0px 18px 40px rgba(0, 0, 0, 0.2),
+              0px 0px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card .character {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card .character header {
+  max-width: 70%;
+}
+
+.card .character header h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.4);
+}
+
+.card .character header .bio {
+  font-size: 0.875rem;
+  color: #D8CEDE;
+}
+
+.card .character .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card .character .info h2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #9C83A7;
+}
+
+.card .character .info span {
+  margin-bottom: 1rem;
+  max-width: 50%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #D8CEDE;
+}
+
+.card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  place-content: center;
+  background: center / cover no-repeat var(--image);
+}
+
+.card .overlay h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  color: #0B0929;
+  text-shadow: 1px 1px 0px #312D74,
+              -1px 1px 0px #312D74,
+              -1px -1px 0px #312D74,
+              1px -1px 0px #312D74;
+}
+
+.card.active {
+  order: 0;
+  max-height: 38rem;
+  margin-inline: -7rem;
+  z-index: 1;
+}
