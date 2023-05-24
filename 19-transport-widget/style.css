@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: #372D3B;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  white-space: nowrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+  padding: 1.5rem 3.5rem;
+  border-radius: 2.5rem;
+  background-color: #FFFFFF;
+}
+
+/* Drag */
+.card-drag {
+  width: 10.5rem;
+  height: 1rem;
+  border-radius: 999rem;
+  background-color: #E5D8EA;
+}
+
+/* Header */
+.card-header h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #372D3B;
+}
+
+.card-header span {
+  color: #864293;
+}
+
+.card-header p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: #372D3B;
+}
+
+/* Body */
+.card-body {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-body-left {
+  align-items: center;
+}
+
+.car-plate {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #372D3B;
+}
+
+.car-model {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #372D3B;
+}
+
+/* Driver */
+.driver {
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.driver-avatar img {
+  width: 8.5rem;
+  height: 8.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.driver-stars {
+  gap: 0.5rem;
+  margin-top: -1.75rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem 1.25rem;
+  font-weight: 600;
+  border-radius: 999rem;
+  color: #FBF8FC;
+  background-color: #372D3B;
+}
+
+.driver-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #372D3B;
+}
+
+.car-image {
+  margin-left: -3rem;
+}
+
+/* Footer */
+.card-footer {
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+  font-size: 3rem;
+  color: #372D3B;
+}
+
+.card-footer-input-wrapper {
+  flex: 1;
+}
+
+.card-footer-input-wrapper input {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 999rem;
+  color: #372D3B;
+  background-color: #F5EDF7;
+}
+
+.card-footer-input-wrapper input::placeholder {
+  color: #372D3BCC;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget de Transporte</title>
+</head>
+<body>
+  <div class="card flex">
+    <div class="card-drag"></div>
+    <div class="card-header">
+      <h1>
+        Encontre <span>Jean</span> no local de partida
+      </h1>
+      <p>
+        Chega em 3 minutos (800 metros)
+      </p>
+    </div>
+    <div class="card-body flex">
+      <div class="card-body-left flex">
+        <div class="driver flex">
+          <div class="driver-avatar">
+            <img src="https://github.com/jfmacedo91.png" alt="Imagem de Jean">
+          </div>
+          <div class="driver-stars flex">
+            <div class="star">
+              <i class="ph-fill ph-star"></i>
+            </div>
+            <strong>5.0</strong>
+          </div>
+          <div class="driver-name">
+            Jean M.
+          </div>
+        </div>
+        <div class="car-image">
+          <img src="https://i.ibb.co/YdWZwPf/car.png" alt="Carro roxo">
+        </div>
+      </div>
+      <div class="card-body-right">
+        <div class="car-plate">
+          BCD0D19
+        </div>
+        <div class="car-model">
+          Gol Roxo
+        </div>
+      </div>
+    </div>
+    <div class="card-footer flex">
+      <div class="card-footer-input-wrapper flex">
+        <label class="sr-only" for="message">Enviar mensagem para Jean...</label>
+        <input type="text" name="message" id="message" placeholder="Enviar mensagem para Jean...">
+      </div>
+      <div class="card-footer-phone">
+        <i class="ph-fill ph-phone"></i>
+      </div>
+      <div class="card-footer-shield">
+        <i class="ph-fill ph-shield-plus"></i>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
