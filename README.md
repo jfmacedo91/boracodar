@@ -25,6 +25,7 @@
 | `17` | `Seletor de data` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/17-date-picker) |[⚓](https://jfmacedo91.github.io/boracodar/17-date-picker/) |
 | `18` | `Card de personagem` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/18-character-card) |[⚓](https://jfmacedo91.github.io/boracodar/18-character-card/) |
 | `19` | `Widget de Transporte` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/19-transport-widget) |[⚓](https://jfmacedo91.github.io/boracodar/19-transport-widget/) |
+| `20` | `The Abstract Gallery` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/20-gallery) |[⚓](https://jfmacedo91.github.io/boracodar/20-gallery/) |
 
 
 
