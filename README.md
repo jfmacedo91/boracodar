@@ -29,6 +29,7 @@
 | `21` | `Shopping Cart` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/21-shopping-cart) |[⚓](https://jfmacedo91.github.io/boracodar/21-shopping-cart/) |
 | `22` | `The Abstract Gallery` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/22-profile-settings) |[⚓](https://jfmacedo91.github.io/boracodar/22-profile-settings/) |
 | `23` | `Mult Step Form` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/23-form-mult-step) |[⚓](https://jfmacedo91.github.io/boracodar/23-form-mult-step/) |
+| `24` | `Ajustes de iluminação` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/24-lighting-adjustments) |[⚓](https://jfmacedo91.github.io/boracodar/24-lighting-adjustments/) |
 
 
 
