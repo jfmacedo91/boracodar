@@ -31,6 +31,7 @@
 | `23` | `Mult Step Form` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/23-form-mult-step) |[⚓](https://jfmacedo91.github.io/boracodar/23-form-mult-step/) |
 | `24` | `Ajustes de iluminação` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/24-lighting-adjustments) |[⚓](https://jfmacedo91.github.io/boracodar/24-lighting-adjustments/) |
 | `25` | `Player VR` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/25-vr-player) |[⚓](https://jfmacedo91.github.io/boracodar/25-vr-player/) |
+| `26` | `Rceita Junina` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/26-june-recipe) |[⚓](https://jfmacedo91.github.io/boracodar/26-june-recipe/) |
 
 
 
