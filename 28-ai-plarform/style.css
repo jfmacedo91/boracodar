@@ -1,0 +1,134 @@
+:root {
+  font-size: 80%;
+	--color-gray-01: #f8fafc;
+	--color-gray-02: #e2e8f0;
+	--color-gray-03: #94a3b8;
+	--color-gray-04: #334155;
+	--color-gray-05: #1e293b;
+	--color-gray-06: #0f172a;
+	--color-gray-07: #020617;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background:  center center/cover url('./assets/bg.png');
+}
+
+span {
+  flex: 1;
+  min-width: 25rem;
+  margin-left: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-02, #E2E8F0);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--gray-04, #334155);
+}
+
+.ph {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: var(--gray-03, #94A3B8);
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0F172A);
+}
+
+.ph-arrow-right,
+.ph-plus-circle {
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.75rem;
+  gap: 2.5rem;
+  border: 1px solid var(--gray-04, #334155);
+  border-radius: 2rem;
+  background: #020617CC;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gray-01, #F8FAFC);
+}
+
+.ai-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tool {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--gray-04, #334155);
+  border-radius: 1rem;
+  background: var(--gray-06, #0F172A);
+  transition: 200ms;
+}
+
+.tool:hover {
+  border-color: var(--gray-01, #F8FAFC);
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 80rem;
+}
+
+.prompt div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray-04, #334155);
+  border-radius: 1rem;
+  background: var(--gray-06, #0F172A);
+  transition: 200ms;
+}
+
+.prompt div:has(input:focus) {
+  border-color: var(--gray-01, #F8FAFC);
+}
+
+.prompt div input {
+  flex: 1;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: none;
+  color: var(--gray-01, #F8FAFC);
+  background: none;
+  outline: none;
+}
+
+.prompt div input::placeholder {
+  color: var(--gray-03, #94A3B8);
+}
+
+.prompt > i:hover {
+  border-color: var(--gray-01, #F8FAFC);
+  transition: 200ms;
+}
