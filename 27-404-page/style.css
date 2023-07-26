@@ -39,6 +39,8 @@ main {
 aside {
   display: flex;
   align-items: center;
+  border-radius: 50%;
+  background-color: #7000FF20;
   box-shadow: 0px 0px 196px 0px #7000FF4D;
 }
 
