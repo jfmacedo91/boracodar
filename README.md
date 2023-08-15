@@ -35,6 +35,7 @@
 | `27` | `Página 404` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/27-404-page) |[⚓](https://jfmacedo91.github.io/boracodar/27-404-page/) |
 | `28` | `Plataforma de IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/28-ai-plarform) |[⚓](https://jfmacedo91.github.io/boracodar/28-ai-plarform/) |
 | `29` | `Antes e depois com IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/29-before-after-ai) |[⚓](https://jfmacedo91.github.io/boracodar/29-before-after-ai/) |
+| `30` | `Recomendação de filme com IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/30-movie-recommendation) |[⚓](https://jfmacedo91.github.io/boracodar/30-movie-recommendation/) |
 
 ## Autor
 
