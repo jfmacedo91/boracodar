@@ -27,7 +27,7 @@
 | `19` | `Widget de Transporte` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/19-transport-widget) |[⚓](https://jfmacedo91.github.io/boracodar/19-transport-widget/) |
 | `20` | `The Abstract Gallery` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/20-gallery) |[⚓](https://jfmacedo91.github.io/boracodar/20-gallery/) |
 | `21` | `Shopping Cart` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/21-shopping-cart) |[⚓](https://jfmacedo91.github.io/boracodar/21-shopping-cart/) |
-| `22` | `The Abstract Gallery` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/22-profile-settings) |[⚓](https://jfmacedo91.github.io/boracodar/22-profile-settings/) |
+| `22` | `Configurações de perfil` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/22-profile-settings) |[⚓](https://jfmacedo91.github.io/boracodar/22-profile-settings/) |
 | `23` | `Mult Step Form` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/23-form-mult-step) |[⚓](https://jfmacedo91.github.io/boracodar/23-form-mult-step/) |
 | `24` | `Ajustes de iluminação` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/24-lighting-adjustments) |[⚓](https://jfmacedo91.github.io/boracodar/24-lighting-adjustments/) |
 | `25` | `Player VR` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/25-vr-player) |[⚓](https://jfmacedo91.github.io/boracodar/25-vr-player/) |
@@ -36,6 +36,7 @@
 | `28` | `Plataforma de IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/28-ai-plarform) |[⚓](https://jfmacedo91.github.io/boracodar/28-ai-plarform/) |
 | `29` | `Antes e depois com IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/29-before-after-ai) |[⚓](https://jfmacedo91.github.io/boracodar/29-before-after-ai/) |
 | `30` | `Recomendação de filme com IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/30-movie-recommendation) |[⚓](https://jfmacedo91.github.io/boracodar/30-movie-recommendation/) |
+| `31` | `Transcrição de video com IA` |  [🔗](https://github.com/jfmacedo91/boracodar/tree/main/31-video-transcription) |[⚓](https://jfmacedo91.github.io/boracodar/31-video-transcription/) |
 
 ## Autor
 
